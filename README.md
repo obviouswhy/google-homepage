@@ -1,79 +1,36 @@
-# git-homepage
-> Short blurb about what your product does.
+# google-homepage
+> First assignment from The Odin Project.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+In this assignment we will reconstruct the google homepage to get used to work with HTML and CSS. 
 
-One to two paragraph statement about your product and what it does.
+## Assignment
+### Easy Version: Build the Google.com homepage (the simple one with just a search box).
+Inside your project folder, create your index.html 
+1. Tips:
+- DON’T BE A PERFECTIONIST! You’re just trying to make it look like google.com, not actually function like it and it doesn’t have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
+- USE GOOGLE! You’ll probably run into roadblocks where you can’t figure out how to do something so do what all good devs do… Google it!
+- If you’re frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property -webkit-appearance: none; or -moz-appearance if you’re using Firefox.
+2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally. You can either download the Google logo or link directly to its URL on the web in your ```<img>``` tag.
 
-![](header.png)
+3. Next do the navbar across the top, first building the content and then trying to position it. Check out how to build a horizontal CSS navbar if you’re lost.
 
-## Installation
+4. Finally, put in the footer, which should be very similar to the top navbar.
 
-OS X & Linux:
+5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page’s source code) to help you along.
 
-```sh
-npm install my-crazy-module --save
-```
+6. Push your project to Github using the instructions above!
 
-Windows:
+### Difficult Version (optional): Build the Google.com search results page
+You should be able to reuse much of your code from before if you started with that project. Again, don’t worry about links to nowhere and forms that won’t submit and hard coding the search results (which you’ll have to do of course), just focus on placement and order of items on the page.
 
-```sh
-edit autoexec.bat
-```
+Note: All the classes and id’s and names of elements that you inspect on Google’s home page are nonsensical strings (like ```<div class='srg'>```). This is because the code was Minified (see the Wikipedia entry here), which removes or shortens unnecessary characters and names to help the page load faster. The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
-## Usage example
+## Expected Result
+#### Easy Version
+![](https://cdn57.androidauthority.net/wp-content/uploads/2017/10/google-home-page-1-840x457.jpg)
+#### Difficult Version
+![](https://catalog.keep.edu.hk/system/images/attachments/000/000/010/original/Google_Web_Search_Wikipedia_result.png?1435569221)
+## Final Result
+![]()
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
-
-## Meta
-
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
-
+<br/>From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
