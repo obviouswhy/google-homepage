@@ -43,6 +43,9 @@ a:hover{
     align-items: center; /*centers items on the cross-axis (y by default)*/
     flex-flow: column wrap;
 }
+.searchField{
+    display: block;
+}
 .logo{
     
 }
