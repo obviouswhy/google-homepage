@@ -10,6 +10,7 @@ a{
 
 a:hover{
     text-decoration: underline;
+    opacity: .8;
 }
 
 /* Style for the navbar */
@@ -31,10 +32,16 @@ a:hover{
     width: 24px;
 }
 /* Body */
-.wrapper{
-    display: block;
-    align-content: center;
-    vertical-align: middle;
+.searchWrapper{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 70%; 
+    /*top: 197.5px;
+    left: 584px;*/
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; /*centers items on the cross-axis (y by default)*/
+    flex-flow: column wrap;
 }
 .logo{
     
