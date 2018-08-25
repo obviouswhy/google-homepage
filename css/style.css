@@ -1,8 +1,9 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;   
+    font-family: arial,sans-serif;
+    font-size: 13px; 
 }
-
 a{
     text-decoration: none;
     color: black
@@ -12,56 +13,79 @@ a:hover{
     text-decoration: underline;
     opacity: .8;
 }
-
-/* Style for the navbar */
-.navbar{
-    font-family: arial,sans-serif;
-    font-size: 13px;
+/* Creating the grid */
+.wrapper{
+    display: grid;
+    /*
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    */
+    grid-template-columns: 1fr 1fr 1fr 300px;
+    grid-template-rows: 50px 1fr 1fr .5fr;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 5px solid blue;
 }
-.navbar--right{
-    float: right;
-    margin-right: 24px;
-    margin-top: 19px;
+/* Styling the navbar */
+.navbar{
+    border: 3px solid red;
+    grid-column: 4/5;
+    grid-row: -5/-4;
+}
+.navbar img{
+    width: 24px;
 }
 .navbar li{
     display: inline;
     margin-left: 7px;
     margin-right: 6px;
 }
-.navbar img{
-    width: 24px;
+.navbar .linkList{
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
 }
-/* Body */
-
-.bodyWrapper{
-    position: absolute;
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-top: 4%;
-    /*top: 197.5px;
-    left: 584px;*/
+/* Main Content */
+.main{
+    border: 3px solid green;
+    grid-column: 2/4;
+    grid-row: -4/-2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    
 }
 .searchWrapper{
-    position: relative;
-    top: 20.5%;
-    left: 40.55%;
+   /* position: fixed;
+    margin-left: 12.7vw;
+    margin-top: 14.2vh;*/
+    box-sizing: border-box;
+    padding: 2vw;
+    padding-left: 1vw;
+    border: 2px solid yellowgreen;
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
-.searchField{
-    position: relative;
-    margin-top: 1%;
-}
-.searchField input{
-    margin-left: -11%;
-    width: 558px;
+#mySearch{
+    width: 580px;
     height: 44px;
+    margin-left: -10vw;
+    padding: 1.5vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-.logo{
-    margin-top: -.4%;
-}
+
 .logo img{
     width: 272px;
     height: 92px;
+}
+/* Footer */
+.footer{
+    border: 3px solid pink;
+    grid-column: -5/-1;
+    grid-row: 4/5;
 }
 
 /* Buttons */
@@ -77,8 +101,9 @@ a:hover{
     background-color: #4885ed;
 }
 .blue_btn:hover{
+    opacity: 1;
     text-decoration: none;
-    box-shadow: 1px 1px rgba(0, 0, 255, .2);
+    box-shadow: 1px 1px rgba(2, 2, 131, 0.2);
 }
 .square_btn{
     opacity: .6;

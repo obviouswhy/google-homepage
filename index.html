@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>  
-    <div class="navbar">
-        <ul class="navbar--right">
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li>
-                <a href="#"><img src="assets/images/google-apps.ico" class="square_btn" alt=""></a>
-                <!-- <a href="#"><img src="assets/images/square.png" class="square_btn" alt=""></a>-->
-            </li>
-            <li>
-                <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" class="blue_btn">Sign in</a>
-            </li>
-        </ul>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <ul class="linkList">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li>
+                        <a href="#"><img src="assets/images/google-apps.ico" class="square_btn" alt=""></a>
+                        <!-- <a href="#"><img src="assets/images/square.png" class="square_btn" alt=""></a>-->
+                    </li>
+                    <li>
+                        <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" class="blue_btn">Sign in</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="main">
+            <div class="searchWrapper">
+                <div class="logo">
+                    <img src="assets/images/gLogo.png" alt="">
+                </div>
+                <div class="searchField">
+                    <form action="https://www.google.com/search" method="get">
+                        <input type="search" id="mySearch" name="q" aria-label="Search through site content">
+                        <div class="searchButtonWrapper">
+                            <input type="submit" value="Google Search">
+                            <input type="submit" value="I'm Feeling Lucky">
+                        </div> 
+                    </form>              
+                </div>
+            </div> 
+        </div>
+        <div class="footer">
+
+        </div>
     </div>
-    <div class="bodyWrapper">
-        <div class="searchWrapper">
-            <div class="logo">
-                <img src="assets/images/gLogo.png" alt="">
-            </div>
-            <div class="searchField">
-                <input type="text" name="search" id="">
-                <div class="searchButtonWrapper">
-                    <a href="" class="search_btn">Google Search</a>
-                    <a href="" class="search_btn">I'm Feeling Lucky</a>
-                </div>            
-            </div>
-        </div>       
-    </div> 
 </body>
 </html>
