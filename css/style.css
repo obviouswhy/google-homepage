@@ -24,7 +24,7 @@ a:hover{
 }
 /* Styling the navbar */
 .navbar{
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     grid-column: 4/5;
     grid-row: -5/-4;
 }
@@ -43,7 +43,7 @@ a:hover{
 }
 /* Main Content */
 .main{
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     grid-column: 2/4;
     grid-row: -4/-2;
     display: grid;
@@ -55,7 +55,7 @@ a:hover{
     box-sizing: border-box;
     padding: 2vw;
     padding-left: 1vw;
-    border: 2px solid yellowgreen;
+    /*border: 2px solid yellowgreen;*/
     grid-column: 2/4;
     grid-row: 2/4;
 }
@@ -78,7 +78,7 @@ a:hover{
 }
 /* Footer */
 .footer{
-    border: 3px solid pink;
+    /*border: 3px solid pink;*/
     grid-column: -5/-1;
     grid-row: 4/5;
     display: grid;
@@ -110,7 +110,7 @@ a:hover{
     box-sizing: border-box;
     height: 40px;
     width: 100px;
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     font-size: 15px;
     text-align: center;
     color: #686868;
@@ -123,14 +123,14 @@ a:hover{
     float: left;
     height: 35px;
     box-sizing: border-box;  
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     margin-left: -25px;
 }
 .links-right{
     float: right;
     height: 35px;
     box-sizing: border-box;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     margin-right: 20px;
 }
  /* Buttons */
