@@ -20,7 +20,7 @@ a:hover{
     grid-template-rows: 50px 1fr 1fr 80px;
     height: 100vh;
     box-sizing: border-box;
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
 }
 /* Styling the navbar */
 .navbar{
