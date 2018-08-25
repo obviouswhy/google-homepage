@@ -27,6 +27,8 @@ a:hover{
     /*border: 3px solid red;*/
     grid-column: 4/5;
     grid-row: -5/-4;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .navbar img{
     width: 24px;
