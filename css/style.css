@@ -76,7 +76,10 @@ a:hover{
     height: 92px;
 }
 .langChange{
-    margin-left: 55px;
+    margin-left: 65px;
+}
+.langChange a{
+    color: #1a0dab;
 }
 /* Footer */
 .footer{
@@ -89,14 +92,16 @@ a:hover{
     margin-top: -3px;
 }
 .half1{
-   background-color: rgba(0, 0, 0, 0.041);
+   background-color: rgba(0, 0, 0, 0.05);
    border: solid rgba(0, 0, 0, 0.06);
    border-width: 1px 0px 1px 0px;
    grid-row: 1/2;
 }
 .half2{
     grid-row: 2/3;
-    background-color: rgba(0, 0, 0, 0.041);
+    background-color: rgba(0, 0, 0, 0.05);
+    line-height: 15px;
+
 }
 .half2 li{
     list-style: none;
@@ -119,15 +124,15 @@ a:hover{
     font-weight: lighter;
 }
 .langIndicator p{
-    margin-top: 10px;
-    margin-left: -6px;
+    margin-top: 11px;
+    margin-left: -5px;
 }
 .links-left{  
     float: left;
     height: 35px;
     box-sizing: border-box;  
     /*border: 1px solid orange;*/
-    margin-left: -25px;
+    margin-left: -24px;
 }
 .links-right{
     float: right;
@@ -171,9 +176,52 @@ a:hover{
     margin: 11px 4px;
     padding: 10px 16px;
     text-align: center;
+    background-color: #75757514;
 }
 .searchButtonWrapper input:hover{
     color: black;
-    border: .5px solid #7575753a;
+    border: 1px solid #7575753a;
     background-color: rgb(242, 242, 242);
+}
+
+/* Changes for small devices */
+@media only screen and (max-width: 650px){
+
+    #mySearch{
+        width: 280px;
+        height: 20px;
+        margin-left: -13px;
+        padding: 1.5vh;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        border-color: transparent;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    .half1{
+        height: 32px;
+        margin-top: 8px;
+    }
+    .half2{
+        height: 77px;
+    }
+    .langIndicator{
+        box-sizing: border-box;
+        height: 25px;
+        width: 100px;
+        /*border: 1px solid purple;*/
+        font-size: 14px;
+        text-align: center;
+        color: #686868;
+        font-weight: lighter;
+    }
+    .links-right{
+        float: left;
+        padding-left: 40px;
+        border-top: .5px solid rgba(0, 0, 0, 0.025);
+        width: 100vw;
+        margin-right: 0px;
+    }
+    .links-left{
+        margin-left: 30px;
+    }
 }
