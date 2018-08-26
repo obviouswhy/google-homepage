@@ -202,10 +202,14 @@ a:hover{
     }
     .searchWrapper{
         display: inline;
-        width: 100vw;
+        width: 80vw;
+        margin-left: 5px;
     }
     .searchButtonWrapper input{
         padding: 10px 10px;
+    }
+    .langChange{
+        margin-left: 85px;
     }
     .half1{
         height: 32px;
