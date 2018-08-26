@@ -202,6 +202,8 @@ a:hover{
     }
     .searchButtonWrapper input{
         padding: 10px 10px;
+        font-size: 12px;
+        margin: 10px 2px;
     }
     .half1{
         height: 32px;
