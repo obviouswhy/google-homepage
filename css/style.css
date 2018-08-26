@@ -197,6 +197,12 @@ a:hover{
         border-color: transparent;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
+    .langChange{
+        font-size: smaller;
+    }
+    .searchButtonWrapper input{
+        padding: 10px 10px;
+    }
     .half1{
         height: 32px;
         margin-top: 8px;
