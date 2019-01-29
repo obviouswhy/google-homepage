@@ -31,6 +31,11 @@ Note: All the classes and id’s and names of elements that you inspect on Googl
 #### Difficult Version
 ![](https://catalog.keep.edu.hk/system/images/attachments/000/000/010/original/Google_Web_Search_Wikipedia_result.png?1435569221)
 ## Final Result
-![]()
+#### Easy Version
+![](https://i.imgur.com/DND8zsz.png)
+(<https://fathomless-wildwood-74929.herokuapp.com>)
+#### Difficult Version
+![](https://i.imgur.com/SHyLxvb.png)
+(<https://aqueous-retreat-91481.herokuapp.com>)
 
 <br/>From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
